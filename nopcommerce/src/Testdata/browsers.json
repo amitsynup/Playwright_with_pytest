@@ -1,0 +1,17 @@
+{
+  "default_browser": "chromium",
+  "browsers": {
+    "chromium": {
+      "type": "chromium",
+      "headless": false
+    },
+    "firefox": {
+      "type": "firefox",
+      "headless": true
+    },
+    "webkit": {
+      "type": "webkit",
+      "headless": true
+    }
+  }
+}

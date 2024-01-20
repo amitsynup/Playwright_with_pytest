@@ -1,0 +1,32 @@
+{
+  "url": "https://www.saucedemo.com/",
+  "credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "database": {
+    "db_user": "root",
+    "db_password": "root1234",
+    "db_host": "localhost",
+    "db_name": "Mydb"
+  },
+  "default_browser": "firefox",
+  "browsers": {
+    "chromium": {
+      "type": "chromium",
+      "headless": false
+    },
+    "firefox": {
+      "type": "firefox",
+      "headless": false
+    },
+    "webkit": {
+      "type": "webkit",
+      "headless": false
+    },
+        "chrome": {
+      "type": "chrome",
+      "headless": false
+    }
+  }
+}
